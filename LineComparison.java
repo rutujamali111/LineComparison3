@@ -21,10 +21,11 @@ public class LineComparison {
 		double length_of_line_2=line.LengthOfLine();
 		if(length_of_line_1==length_of_line_2)
 			System.out.println("Two lines are equal...");
-		else 
-			System.out.println("not euals");
-		
-	}
+		else if(length_of_line_1<length_of_line_2)
+			System.out.println("line 2 is greater... ");
+		else
+			System.out.println("line 1 is greater...");
+			}
 
 }
 
